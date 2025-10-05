@@ -37,15 +37,11 @@ export type TUser = {
   name: string;
 };
 
-export type TRegisterData = {
-  email: string;
-  name: string;
-  password: string;
-};
-
-export type TLoginData = {
-  email: string;
-  password: string;
-};
-
 export type TTabMode = 'bun' | 'sauce' | 'main';
+
+export const enum RequestStatus {
+  Idle = 'Idle', // еще ничего не происходило
+  Loading = 'Loading',
+  Success = 'Success',
+  Failed = 'Failed'
+}

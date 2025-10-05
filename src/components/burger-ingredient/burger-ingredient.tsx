@@ -1,10 +1,9 @@
 import { FC, memo } from 'react';
 import { useLocation } from 'react-router-dom';
-import { useDispatch } from '../../services/store';
-import { addIngredient } from '../../services/slices/constructor-slice';
-import { v4 as uuidv4 } from 'uuid';
 
 import { BurgerIngredientUI } from '@ui';
+import { burgerConstructorActions } from '../../services/slices/burgerConstructor';
+import { useDispatch } from '../../services/store';
 import { TBurgerIngredientProps } from './type';
 
 export const BurgerIngredient: FC<TBurgerIngredientProps> = memo(
@@ -13,11 +12,7 @@ export const BurgerIngredient: FC<TBurgerIngredientProps> = memo(
     const dispatch = useDispatch();
 
     const handleAdd = () => {
-      const constructorIngredient = {
-        ...ingredient,
-        id: uuidv4()
-      };
-      dispatch(addIngredient(constructorIngredient));
+      dispatch(burgerConstructorActions.addIngredient(ingredient));
     };
 
     return (

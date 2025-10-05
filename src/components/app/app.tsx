@@ -1,59 +1,49 @@
-import React, { FC, useEffect } from 'react';
-import { useLocation, Routes, Route, useNavigate } from 'react-router-dom';
-import { useDispatch } from '../../services/store';
-import { getUser } from '../../services/slices/user-slice';
+import '../../index.css';
+import styles from './app.module.css';
 
+import { useEffect } from 'react';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+
+import { AppHeader, IngredientDetails, Modal, OrderInfo } from '@components';
 import {
   ConstructorPage,
   Feed,
-  Login,
-  Register,
   ForgotPassword,
-  ResetPassword,
+  Login,
+  NotFound404,
   Profile,
   ProfileOrders,
-  NotFound404
+  Register,
+  ResetPassword
 } from '@pages';
-
-import styles from './app.module.css';
-import '../../index.css';
-
-import { AppHeader, Modal, OrderInfo, IngredientDetails } from '@components';
-
-// вместо импорта из @components:
+import { useDispatch, useSelector } from '../../services/store';
 import { ProtectedRoute } from '../protected-route';
+import { orderSelectors } from '../../services/slices/order';
+import { ingredientsActions } from '../../services/slices/ingredients';
+import { userActions } from '../../services/slices/user';
 
-const App: FC = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
+const App = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const routeBackground = location.state?.background;
+  const selectedOrderNumber = useSelector(
+    orderSelectors.orderByNumberSelector
+  )?.number;
 
-  // Поддержка фоновой локации для модалок
-  const state = location.state as { background?: Location };
-  const background = state && state.background;
-
-  const handleCloseModal = () => navigate(-1);
-
-  // Инициализация авторизации при загрузке приложения
   useEffect(() => {
-    const token = localStorage.getItem('refreshToken');
-    if (token) {
-      dispatch(getUser());
-    }
+    dispatch(ingredientsActions.fetchIngredients());
+    dispatch(userActions.fetchUser());
   }, [dispatch]);
+
+  const closeModalAndGoBack = () => navigate(-1);
 
   return (
     <div className={styles.app}>
       <AppHeader />
-
-      {/* Основная маршрутизация: если открывали карточку/заказ как модалку, 
-          то здесь рендерится фон (background), иначе — обычная локация */}
-      <Routes location={background || location}>
-        {/* Обычные роуты */}
+      <Routes location={routeBackground || location}>
         <Route path='/' element={<ConstructorPage />} />
         <Route path='/feed' element={<Feed />} />
-
-        {/* Только для неавторизованных */}
         <Route
           path='/login'
           element={
@@ -86,8 +76,6 @@ const App: FC = () => {
             </ProtectedRoute>
           }
         />
-
-        {/* Защищённые */}
         <Route
           path='/profile'
           element={
@@ -104,10 +92,9 @@ const App: FC = () => {
             </ProtectedRoute>
           }
         />
-
-        {/* Детальные страницы (как полноценные, если пришли по прямой ссылке) */}
-        <Route path='/ingredients/:id' element={<IngredientDetails />} />
+        <Route path='*' element={<NotFound404 />} />
         <Route path='/feed/:number' element={<OrderInfo />} />
+        <Route path='/ingredients/:id' element={<IngredientDetails />} />
         <Route
           path='/profile/orders/:number'
           element={
@@ -116,27 +103,26 @@ const App: FC = () => {
             </ProtectedRoute>
           }
         />
-
-        {/* 404 */}
-        <Route path='*' element={<NotFound404 />} />
       </Routes>
 
-      {/* Если есть background — рендерим те же пути как модалки поверх фона */}
-      {background && (
+      {routeBackground && (
         <Routes>
           <Route
-            path='/ingredients/:id'
+            path='/feed/:number'
             element={
-              <Modal title='Детали ингредиента' onClose={handleCloseModal}>
-                <IngredientDetails />
+              <Modal
+                title={`#${selectedOrderNumber}`}
+                onClose={closeModalAndGoBack}
+              >
+                <OrderInfo />
               </Modal>
             }
           />
           <Route
-            path='/feed/:number'
+            path='/ingredients/:id'
             element={
-              <Modal title='' onClose={handleCloseModal}>
-                <OrderInfo />
+              <Modal title={'Детали ингредиента'} onClose={closeModalAndGoBack}>
+                <IngredientDetails />
               </Modal>
             }
           />
@@ -144,7 +130,10 @@ const App: FC = () => {
             path='/profile/orders/:number'
             element={
               <ProtectedRoute>
-                <Modal title='' onClose={handleCloseModal}>
+                <Modal
+                  title={`#${selectedOrderNumber}`}
+                  onClose={closeModalAndGoBack}
+                >
                   <OrderInfo />
                 </Modal>
               </ProtectedRoute>

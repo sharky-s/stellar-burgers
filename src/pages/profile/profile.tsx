@@ -1,18 +1,19 @@
-import { ProfileUI } from '@ui-pages';
 import { FC, SyntheticEvent, useEffect, useState } from 'react';
-import { useSelector, useDispatch } from '../../services/store';
-import { getUser } from '../../services/selectors/user';
-import { updateUser } from '../../services/slices/user-slice';
+
+import { ProfileUI } from '@ui-pages';
+import { userActions, userSelectors } from '../../services/slices/user';
+import { useDispatch, useSelector } from '../../services/store';
 
 export const Profile: FC = () => {
-  const dispatch = useDispatch();
-  const user = useSelector(getUser);
+  const user = useSelector(userSelectors.userDataSelector);
 
   const [formValue, setFormValue] = useState({
     name: user?.name || '',
     email: user?.email || '',
     password: ''
   });
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setFormValue((prevState) => ({
@@ -27,22 +28,13 @@ export const Profile: FC = () => {
     formValue.email !== user?.email ||
     !!formValue.password;
 
-  const handleSubmit = (e: SyntheticEvent) => {
-    e.preventDefault();
-    const updateData: any = {};
-    if (formValue.name !== user?.name) updateData.name = formValue.name;
-    if (formValue.email !== user?.email) updateData.email = formValue.email;
-    if (formValue.password) updateData.password = formValue.password;
-
-    dispatch(updateUser(updateData)).then((result) => {
-      if (result.type === 'user/updateUser/fulfilled') {
-        setFormValue((prev) => ({ ...prev, password: '' }));
-      }
-    });
+  const handleSubmit = (event: SyntheticEvent) => {
+    event.preventDefault();
+    dispatch(userActions.updateUser(formValue));
   };
 
-  const handleCancel = (e: SyntheticEvent) => {
-    e.preventDefault();
+  const handleCancel = (event: SyntheticEvent) => {
+    event.preventDefault();
     setFormValue({
       name: user?.name || '',
       email: user?.email || '',
@@ -50,10 +42,10 @@ export const Profile: FC = () => {
     });
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFormValue((prevState) => ({
       ...prevState,
-      [e.target.name]: e.target.value
+      [event.target.name]: event.target.value
     }));
   };
 

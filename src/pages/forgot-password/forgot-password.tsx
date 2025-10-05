@@ -10,8 +10,8 @@ export const ForgotPassword: FC = () => {
 
   const navigate = useNavigate();
 
-  const handleSubmit = (e: SyntheticEvent) => {
-    e.preventDefault();
+  const handleSubmit = (event: SyntheticEvent) => {
+    event.preventDefault();
 
     setError(null);
     forgotPasswordApi({ email })

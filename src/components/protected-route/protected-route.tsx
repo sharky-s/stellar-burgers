@@ -1,27 +1,36 @@
-import { FC, PropsWithChildren } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 import { useSelector } from '../../services/store';
-import { selectIsAuth } from '../../services/selectors/user';
+import { Preloader } from '../ui/preloader';
+import { userSelectors } from '../../services/slices/user';
 
-type TProtectedRouteProps = PropsWithChildren<{ onlyUnAuth?: boolean }>;
-
-export const ProtectedRoute: FC<TProtectedRouteProps> = ({
-  onlyUnAuth = false,
-  children
-}) => {
-  const location = useLocation();
-  const isAuth = useSelector(selectIsAuth);
-
-  if (onlyUnAuth && isAuth) {
-    const from = (location.state as any)?.from?.pathname || '/';
-    return <Navigate to={from} replace />;
-  }
-
-  if (!onlyUnAuth && !isAuth) {
-    return <Navigate to='/login' replace state={{ from: location }} />;
-  }
-
-  return <>{children}</>;
+type ProtectedRouteProps = {
+  children: React.ReactElement;
+  onlyUnAuth?: boolean;
 };
 
-export default ProtectedRoute;
+export const ProtectedRoute = ({
+  children,
+  onlyUnAuth
+}: ProtectedRouteProps) => {
+  const location = useLocation();
+  const authChecked = useSelector(userSelectors.isAuthCheckedSelector);
+  const currentUser = useSelector(userSelectors.userDataSelector);
+
+  // пока идёт чекаут пользователя, показываем прелоадер
+  if (!authChecked) {
+    return <Preloader />;
+  }
+
+  //  если маршрут для авторизованного пользователя, но пользователь неавторизован, то делаем редирект
+  if (!onlyUnAuth && !currentUser) {
+    return <Navigate replace to='/login' state={{ from: location }} />;
+  }
+
+  //  если маршрут для неавторизованного пользователя, но пользователь авторизован
+  if (onlyUnAuth && currentUser) {
+    const redirectFrom = location.state?.from || { pathname: '/' };
+    return <Navigate replace to={redirectFrom} />;
+  }
+
+  return children;
+};
