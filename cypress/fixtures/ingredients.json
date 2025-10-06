@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": [
+    { "_id": "bun1", "name": "Краторная булка N-200i", "type": "bun", "price": 2510, "image": "", "image_large": "", "image_mobile": "" },
+    { "_id": "main1", "name": "Филе Люминесцентного тетра-лосося", "type": "main", "price": 988, "image": "", "image_large": "", "image_mobile": "" },
+    { "_id": "sauce1", "name": "Соус фирменный Space Sauce", "type": "sauce", "price": 90, "image": "", "image_large": "", "image_mobile": "" }
+  ]
+}
+
+

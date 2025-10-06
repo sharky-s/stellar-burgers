@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1759773310974" clover="3.2.0">
+  <project timestamp="1759773310974" name="All files">
+    <metrics statements="924" coveredstatements="141" conditionals="264" coveredconditionals="4" methods="234" coveredmethods="15" elements="1422" coveredelements="160" complexity="0" loc="924" ncloc="924" packages="55" files="69" classes="69"/>
+    <package name="src">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/index.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="styles.d.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/styles.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="svg.d.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/svg.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.app">
+      <metrics statements="23" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="app.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/app/app.tsx">
+        <metrics statements="23" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.app-header">
+      <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="app-header.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/app-header/app-header.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+    </package>
+    <package name="src.components.burger-constructor">
+      <metrics statements="30" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="burger-constructor.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/burger-constructor/burger-constructor.tsx">
+        <metrics statements="30" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.burger-constructor-element">
+      <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="burger-constructor-element.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/burger-constructor-element/burger-constructor-element.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.burger-ingredient">
+      <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="burger-ingredient.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/burger-ingredient/burger-ingredient.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.burger-ingredients">
+      <metrics statements="33" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="burger-ingredients.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/burger-ingredients/burger-ingredients.tsx">
+        <metrics statements="33" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="53" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.feed-info">
+      <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="feed-info.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/feed-info/feed-info.tsx">
+        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ingredient-details">
+      <metrics statements="12" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ingredient-details.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ingredient-details/ingredient-details.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ingredients-category">
+      <metrics statements="16" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ingredients-category.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ingredients-category/ingredients-category.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.modal">
+      <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="modal.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/modal/modal.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.order-card">
+      <metrics statements="22" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="order-card.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/order-card/order-card.tsx">
+        <metrics statements="22" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.order-info">
+      <metrics statements="31" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="order-info.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/order-info/order-info.tsx">
+        <metrics statements="31" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.order-status">
+      <metrics statements="11" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="order-status.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/order-status/order-status.tsx">
+        <metrics statements="11" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.orders-list">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="orders-list.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/orders-list/orders-list.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.profile-menu">
+      <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="profile-menu.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/profile-menu/profile-menu.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.protected-route">
+      <metrics statements="18" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="protected-route.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/protected-route/protected-route.tsx">
+        <metrics statements="18" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.app-header">
+      <metrics statements="12" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="app-header.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/app-header/app-header.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="src.components.ui.burger-constructor">
+      <metrics statements="13" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="burger-constructor.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/burger-constructor/burger-constructor.tsx">
+        <metrics statements="13" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.burger-constructor-element">
+      <metrics statements="11" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="burger-constructor-element.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/burger-constructor-element/burger-constructor-element.tsx">
+        <metrics statements="11" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.burger-ingredient">
+      <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="burger-ingredient.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/burger-ingredient/burger-ingredient.tsx">
+        <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.burger-ingredients">
+      <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="burger-ingredients.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/burger-ingredients/burger-ingredients.tsx">
+        <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.feed-info">
+      <metrics statements="9" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="feed-info.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/feed-info/feed-info.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.ingredient-details">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ingredient-details.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/ingredient-details/ingredient-details.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.ingredients-category">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ingredients-category.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/ingredients-category/ingredients-category.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.modal">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="modal.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/modal/modal.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.modal-overlay">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="modal-overlay.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/modal-overlay/modal-overlay.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.order-card">
+      <metrics statements="10" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="order-card.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/order-card/order-card.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.order-details">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="order-details.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/order-details/order-details.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.order-info">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="order-info.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/order-info/order-info.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.order-status">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="order-status.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/order-status/order-status.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.orders-list">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="orders-list.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/orders-list/orders-list.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.constructor-page">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="constructor-page.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/constructor-page/constructor-page.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.feed">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="feed.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/feed/feed.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.forgot-password">
+      <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="forgot-password.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/forgot-password/forgot-password.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.login">
+      <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="login.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/login/login.tsx">
+        <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.profile">
+      <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="profile.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/profile/profile.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.profile-orders">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="profile-orders.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/profile-orders/profile-orders.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.register">
+      <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="register.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/register/register.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.pages.reset-password">
+      <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="reset-password.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/pages/reset-password/reset-password.tsx">
+        <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.preloader">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="preloader.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/preloader/preloader.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui.profile-menu">
+      <metrics statements="10" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="profile-menu.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/components/ui/profile-menu/profile-menu.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.constructor-page">
+      <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="constructor-page.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/constructor-page/constructor-page.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.feed">
+      <metrics statements="14" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="feed.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/feed/feed.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.forgot-password">
+      <metrics statements="16" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="forgot-password.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/forgot-password/forgot-password.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.login">
+      <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="login.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/login/login.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.not-fount-404">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="not-fount-404.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/not-fount-404/not-fount-404.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.profile">
+      <metrics statements="20" coveredstatements="0" conditionals="47" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="profile.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/profile/profile.tsx">
+        <metrics statements="20" coveredstatements="0" conditionals="47" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="7"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.profile-orders">
+      <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="profile-orders.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/profile-orders/profile-orders.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.register">
+      <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="register.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/register/register.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.reset-password">
+      <metrics statements="20" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="reset-password.tsx" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/pages/reset-password/reset-password.tsx">
+        <metrics statements="20" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="store.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/store.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.slices">
+      <metrics statements="161" coveredstatements="76" conditionals="6" coveredconditionals="2" methods="59" coveredmethods="14"/>
+      <file name="burgerConstructor.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/burgerConstructor.ts">
+        <metrics statements="25" coveredstatements="20" conditionals="6" coveredconditionals="2" methods="10" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="20" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+      </file>
+      <file name="feed.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/feed.ts">
+        <metrics statements="20" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+      <file name="ingredients.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/ingredients.ts">
+        <metrics statements="17" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+      </file>
+      <file name="order.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/order.ts">
+        <metrics statements="24" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+      <file name="orders.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/orders.ts">
+        <metrics statements="16" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+      <file name="sliceNames.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/sliceNames.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+      <file name="user.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/slices/user.ts">
+        <metrics statements="53" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.thunk">
+      <metrics statements="43" coveredstatements="27" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="feed-thunk.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/thunk/feed-thunk.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="ingredients-thunk.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/thunk/ingredients-thunk.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="order-thunk.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/thunk/order-thunk.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="orders-thunk.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/thunk/orders-thunk.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="user-thunk.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/services/thunk/user-thunk.ts">
+        <metrics statements="26" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="99" coveredstatements="25" conditionals="60" coveredconditionals="2" methods="39" coveredmethods="1"/>
+      <file name="burger-api.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/utils/burger-api.ts">
+        <metrics statements="71" coveredstatements="17" conditionals="48" coveredconditionals="0" methods="35" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="118" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="146" count="2" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="156" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="165" count="2" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="175" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="179" count="2" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="189" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="193" count="2" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="203" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="209" count="2" type="stmt"/>
+        <line num="210" count="0" type="stmt"/>
+        <line num="216" count="2" type="stmt"/>
+        <line num="217" count="0" type="stmt"/>
+        <line num="226" count="2" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="235" count="0" type="stmt"/>
+      </file>
+      <file name="cookie.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/utils/cookie.ts">
+        <metrics statements="23" coveredstatements="3" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+      <file name="types.ts" path="/Users/sharky-s/Desktop/Digital_Life/Study/Courses/Yandex_Practicum_Frontend[2025]/stellar-burgers/src/utils/types.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

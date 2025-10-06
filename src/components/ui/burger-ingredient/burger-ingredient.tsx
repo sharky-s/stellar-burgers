@@ -1,17 +1,21 @@
 import React, { FC, memo } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './burger-ingredient.module.css';
 
+import { TBurgerIngredientUIProps } from './type';
+import styles from './burger-ingredient.module.css';
 import {
   Counter,
   CurrencyIcon,
   AddButton
 } from '@zlden/react-developer-burger-ui-components';
 
-import { TBurgerIngredientUIProps } from './type';
-
 export const BurgerIngredientUI: FC<TBurgerIngredientUIProps> = memo(
-  ({ ingredient, count, handleAdd, locationState }) => {
+  ({
+    ingredient,
+    count: itemsCount,
+    handleAdd: onAddClick,
+    locationState: navigationState
+  }) => {
     const { image, price, name, _id } = ingredient;
 
     return (
@@ -19,10 +23,10 @@ export const BurgerIngredientUI: FC<TBurgerIngredientUIProps> = memo(
         <Link
           className={styles.article}
           to={`/ingredients/${_id}`}
-          state={locationState}
+          state={navigationState}
         >
-          {count && <Counter count={count} />}
-          <img className={styles.img} src={image} alt='картинка ингредиента.' />
+          {itemsCount ? <Counter count={itemsCount} /> : null}
+          <img className={styles.img} src={image} alt={name} />
           <div className={`${styles.cost} mt-2 mb-2`}>
             <p className='text text_type_digits-default mr-2'>{price}</p>
             <CurrencyIcon type='primary' />
@@ -31,7 +35,7 @@ export const BurgerIngredientUI: FC<TBurgerIngredientUIProps> = memo(
         </Link>
         <AddButton
           text='Добавить'
-          onClick={handleAdd}
+          onClick={onAddClick}
           extraClass={`${styles.addButton} mt-8`}
         />
       </li>
