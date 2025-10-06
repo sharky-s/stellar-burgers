@@ -2,7 +2,7 @@ import { rootReducer } from '../store';
 
 describe('rootReducer', () => {
   it('возвращает начальное состояние при неизвестном экшене', () => {
-    const state = rootReducer(undefined as any, { type: 'UNKNOWN_ACTION' });
+    const state = rootReducer(undefined, { type: 'UNKNOWN_ACTION' });
     // проверим, что ключи слайсов существуют и имеют корректные начальные значения
     expect(state).toHaveProperty('user');
     expect(state).toHaveProperty('feed');
@@ -12,5 +12,3 @@ describe('rootReducer', () => {
     expect(state).toHaveProperty('orders');
   });
 });
-
-

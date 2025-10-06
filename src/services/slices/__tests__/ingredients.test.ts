@@ -19,11 +19,10 @@ describe('ingredients reducer (async flow)', () => {
   });
 
   it('rejected записывает ошибку и ставит Failed', () => {
-    const error = { message: 'Network error' } as any;
+    const error = { message: 'Network error' };
     const state = reducer(undefined, { type: fetchIngredients.rejected.type, error });
     expect(state.status).toBe(RequestStatus.Failed);
     expect(state.error).toBe('Network error');
   });
 });
-
 
